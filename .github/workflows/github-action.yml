@@ -1,6 +1,9 @@
 name: deploy-toy-website
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
 
 permissions:
   id-token: write
